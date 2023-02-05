@@ -9,7 +9,7 @@ function App() {
             <Nav className="me-auto">
                 <Navbar.Brand href="#home">
                     <img
-                        src="/logo.svg"
+                        src="./logo.svg"
                         width="50"
                         height="30"
                         className="d-inline-block align-top"
