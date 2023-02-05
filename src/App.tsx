@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
 import { Nav } from 'react-bootstrap';
 function App() {
   return (
