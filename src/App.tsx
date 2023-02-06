@@ -26,7 +26,7 @@ function App() {
         <div className="full-div">
             <p className="large-font">Hello,</p>
             <p>I'm David</p>
-            <p>I &lt;code/&gt;.</p>
+            <p>I &lt;code/&gt;</p>
         </div>
     </div>
   );
