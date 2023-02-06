@@ -5,7 +5,8 @@ import { Nav } from 'react-bootstrap';
 function App() {
   return (
     <div>
-      <Navbar>
+        <div>
+      <Navbar className="nav-bar">
             <Nav className="me-auto">
                 <Navbar.Brand href="#home">
                     <img
@@ -13,7 +14,7 @@ function App() {
                         width="50"
                         height="30"
                         className="d-inline-block align-top"
-                        alt="React Bootstrap logo"
+                        alt="David logo"
                     />
                 </Navbar.Brand>
                 <Nav.Link href="#projects">Projects</Nav.Link>
@@ -21,6 +22,12 @@ function App() {
                 <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
       </Navbar>
+        </div>
+        <div className="full-div">
+            <p className="large-font">Hello,</p>
+            <p>I'm David</p>
+            <p>I &lt;code/&gt;.</p>
+        </div>
     </div>
   );
 }
