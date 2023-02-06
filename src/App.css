@@ -20,7 +20,7 @@
 /*}*/
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #23a6d5, #D4F1F4);
+    background: linear-gradient(-45deg, #ee7752, #23a6d5, #D4F1F4, #ffffff);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
@@ -67,5 +67,38 @@ span {
 
 p {
     color: #1c4587ff;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+    animation: typewriter .5s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 3em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
+
+.vr {
+    border-left:1px solid #000;
+    height:40px;
+    margin-right: 10px;
 }
 

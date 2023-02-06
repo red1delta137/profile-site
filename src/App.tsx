@@ -17,6 +17,7 @@ function App() {
                         alt="David logo"
                     />
                 </Navbar.Brand>
+                <div className="vr"></div>
                 <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#about">About</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
@@ -24,7 +25,7 @@ function App() {
       </Navbar>
         </div>
         <div className="full-div">
-            <p className="large-font">Hello,</p>
+            <p className="large-font line-1 anim-typewriter">Hello,</p>
             <p>I'm David</p>
             <p>I &lt;code/&gt;</p>
         </div>
